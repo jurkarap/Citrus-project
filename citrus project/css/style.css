@@ -1,0 +1,144 @@
+body {
+    min-width: 320px;
+    font: Open Sans;
+    letter-spacing: 0;
+    background-color: #F2F2F2;
+}
+
+
+header {
+    background-color: #364555;
+    width: 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+header a {
+    color: #FFFFFF;
+}
+
+header a:hover {
+    color: darkseagreen;
+}
+
+.navbar-toggler-icon:hover {
+    color:grey
+}
+
+.site-navigation-bar {
+    font-size: 16px;
+}
+
+.site-navigation-bar a {
+    color: #364555;
+    letter-spacing: 0px;
+    transition: 0.2s;
+    position: relative;
+}
+
+.site-navigation-bar a:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-left: solid 5px;
+    color: #F6731C;
+    transition: 0.2s;
+    transform: scaleY(0);
+}
+
+.site-navigation-bar a:hover:before {
+    transform: scale(1);
+}
+
+.site-navigation-bar a:hover > svg *{
+    fill: #F6731C;
+}
+
+.site-navigation-bar svg {
+    margin-right: 8px;
+}
+
+.myChart-style {
+    letter-spacing: 0px;
+    color: #0e457c;
+    opacity: 1;
+    max-height: 150px;
+    max-width: 350px;
+}
+
+.search-item-container {
+    max-width: 380px;
+}
+
+.category-name {
+    color: #364555;
+    font-size: 14px; 
+}
+
+.category-quantity {
+    color: #F6731C;
+}
+
+.category-description {
+    font-size: 12px;
+    color: #536271;
+}
+
+.product-item-name {
+    color: #536271;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+..product-item-name img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.product-item-quantity {
+    color: #536271;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.all-product-transition-link {
+    color: #364555;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+table {
+    color: #536271;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.table-title {
+    color: #536271;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.siteds {
+    width: 100%;
+}
+
+.product-img {
+    min-width: 13px;
+    min-height: 13px;
+}
+
+.main-block-container {
+    border-radius: 15px;
+    box-shadow: 0px 3px 20px #DCE1EA80;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-bottom: 15px;
+    background-color: #FFFFFF;
+}
